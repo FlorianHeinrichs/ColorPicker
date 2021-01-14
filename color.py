@@ -6,7 +6,7 @@ from numpy import mean
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = 'choose_a_color_secret_key'
+app.config['SECRET_KEY'] = 'super_secret_key'
 
 class ColorForm(FlaskForm):
     color = TextField('Color')
@@ -15,7 +15,7 @@ class ColorForm(FlaskForm):
 
 @app.route('/')
 def index():
-    session['color'] = color = [255,255,255]
+    session['color'] = [255,255,255]
     return redirect(url_for('update_color'))
     #return render_template('color.html', form=form, style=style)
 
