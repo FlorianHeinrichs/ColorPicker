@@ -1,7 +1,7 @@
 # ColorPicker
 With this color picker, you can choose and change a color based on natural language as input.
 
-[Screenshot](https://github.com/FlorianHeinrichs/ColorPicker/blob/main/screenshot.png)
+![Screenshot](https://github.com/FlorianHeinrichs/ColorPicker/blob/main/screenshot.png)
 
 Possible inputs are:
 - colors, e.g. "red", "yellow", "orange", etc.
