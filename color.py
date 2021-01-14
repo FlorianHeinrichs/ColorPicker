@@ -15,7 +15,7 @@ class ColorForm(FlaskForm):
 
 @app.route('/')
 def index():
-    session['color'] = [255,255,255]
+    session['color'] = (255,255,255)
     return redirect(url_for('update_color'))
     #return render_template('color.html', form=form, style=style)
 
